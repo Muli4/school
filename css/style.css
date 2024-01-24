@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    background: url(/photos/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon
+{
+    width: 500px;
+    float: left;
+    height: 70px;
+}
+.logo
+{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover
+{
+    color: #ff7200;
+}
+.search
+{
+    width: 330px;
+    float: left;
+    margin-left: 280px;
+}
+.srch
+{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus
+{
+    outline: none;
+}
+.search:focus
+{
+    outline: none;
+}
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+      width: 100%;
+    }
+  
+    .icon,
+    .menu,
+    .search {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+      float: none;
+    }
+  
+    ul {
+      justify-content: center;
+    }
+  
+    ul li {
+      margin: 10px 0;
+    }
+  
+    .srch {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
